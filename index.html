@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>unfollows</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+</head>
+<body>
+  <h1>unfollows</h1>
+  <div id="instructions">
+    <p>this method is safe because it doesn't require your login information!</p>
+    <p>1. go to your <a href="https://accountscenter.instagram.com/info_and_permissions/" target="_blank">account center</a> and download your information in JSON. 
+      <!-- if you don't know how to do this, see these step-by-step instructions. -->
+    </p>
+    <p>2. after you download your information, upload the ENTIRE file below.</p>
+    <p>3. find out who's fake! 😊</p>
+  </div>
+  
+  <!-- Styled file input button -->
+  <label for="f" class="file-upload-btn">Upload File</label>
+  <input type="file" id="f" style="display: none;">
+  
+  <div id="status" style="display: none;">
+    <p>loading...</p>
+  </div>
+  
+  <div id="results" style="display: none;">
+    <ul id="unfollows-list"></ul>
+  </div>  
+
+  <!-- Footer -->
+  <!-- <footer id="footer">
+    <p>follow <a href="https://www.instagram.com/aryan.gupta100" target="_blank" style="color: #007bff;"><b>aryan</b></a> for more!</p>
+  </footer> -->
+
+  <script src="index.js"></script>
+</body>
+</html>
