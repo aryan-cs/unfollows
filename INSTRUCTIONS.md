@@ -15,7 +15,7 @@
 
 ![step 4](https://raw.githubusercontent.com/aryan-cs/unfollows/master/instructions/4.png)
 
-# # 5. Select "Download to device"
+# 5. Select "Download to device"
 
 ![step 5](https://raw.githubusercontent.com/aryan-cs/unfollows/master/instructions/5.png)
 
